@@ -1,6 +1,6 @@
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import webpack from 'webpack';
+import webpack, { web } from 'webpack';
 import { BuildOptions } from './types/config';
 
 export function buildPlaging({
@@ -19,5 +19,6 @@ export function buildPlaging({
 		new webpack.DefinePlugin({
 			__IS_DEV__: JSON.stringify(isDev),
 		}),
+		new webpack.HotModuleReplacementPlugin(),
 	];
 }
