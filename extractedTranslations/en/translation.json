@@ -8,5 +8,7 @@
   "Sign in": "Sign in",
   "Something went wrong": "Something went wrong",
   "Throw Error": "Throw Error",
-  "Toggle": "Toggle"
+  "Toggle": "Toggle",
+  "decrement": "decrement",
+  "increment": "increment"
 }

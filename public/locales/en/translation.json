@@ -10,5 +10,7 @@
 	"short language": "En",
 	"About us": "About us",
 	"Main page": "Main page",
-	"Sign in": "Sign in"
+	"Sign in": "Sign in",
+	"increment": "increment",
+	"decrement": "decrement"
 }

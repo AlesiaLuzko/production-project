@@ -10,5 +10,7 @@
 	"short language": "Ru",
 	"About us": "О сайте",
 	"Main page": "Главная страница",
-	"Sign in": "Войти"
+	"Sign in": "Войти",
+	"increment": "увеличить",
+	"decrement": "уменьшить"
 }
